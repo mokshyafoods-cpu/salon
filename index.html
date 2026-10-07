@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f4ef" />
+  <meta name="description" content="Makeup artistry and beauty services for every version of you. Book your appointment at Muse Makeup Parlor." />
+  <title>Muse Makeup Parlor | Beauty, your way</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="announcement">A little time for yourself goes a long way <span>·</span> Now booking this week</div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Muse Makeup Parlor home"><span class="wordmark-icon">m</span><span>MUSE<small>MAKEUP PARLOR</small></span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#about">Our approach</a>
+      <a href="#looks">The lookbook</a>
+      <a class="nav-book" href="#booking">Book an appointment <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> YOUR BEAUTY, YOUR WAY</p>
+        <h1>Come as you are.<br /><em>Leave a little</em><br />more you.</h1>
+        <p class="hero-intro">Makeup that feels like you on your very best day. Thoughtful artistry, good energy, and a chair with your name on it.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#booking">Find your appointment <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#services">Explore services <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-mark">✳</span><span>Make room for<br /><strong>feeling like yourself.</strong></span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1200&q=85" alt="Beauty portrait with soft, natural makeup" />
+        <div class="image-caption"><span>01 / 03</span><span>Soft glam, made personal</span></div>
+        <div class="hero-stamp" aria-hidden="true"><span>BEAUTY</span><span class="stamp-star">✳</span><span>WITHOUT RULES</span></div>
+      </div>
+      <div class="hero-side-label" aria-hidden="true">A PLACE TO FEEL LIKE YOU</div>
+    </section>
+
+    <section class="services section-wrap" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow">A LITTLE SOMETHING FOR YOU</p><h2>Good skin. Great makeup.<br /><em>Your kind of beautiful.</em></h2></div>
+        <p class="section-aside">From a fresh-faced reset to the full occasion, we make getting ready feel like the best part.</p>
+      </div>
+      <div class="service-grid" id="service-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="about-band" id="about">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1100&q=85" alt="Makeup artist carefully applying makeup" loading="lazy" /></div>
+      <div class="about-copy">
+        <p class="eyebrow">A SOFTER KIND OF GLAM</p>
+        <h2>Beauty should<br />feel like <em>belonging.</em></h2>
+        <p>At Muse, there are no rules to get right and no version of you to perform. Just a considered, one-on-one experience, makeup chosen for your features, and a little space to exhale.</p>
+        <a class="text-link" href="#booking">Get to know your artist <span aria-hidden="true">↗</span></a>
+        <span class="about-scribble" aria-hidden="true">made for you ✳</span>
+      </div>
+    </section>
+
+    <section class="lookbook section-wrap" id="looks">
+      <div class="lookbook-top"><div><p class="eyebrow">THE MUSE LOOKBOOK</p><h2>Real people. <em>Real good days.</em></h2></div><p>Every face tells a different story.<br />Here are a few of our favorites.</p></div>
+      <div class="lookbook-grid">
+        <figure class="look look-tall"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Fresh, luminous makeup look" loading="lazy" /><figcaption>01 <span>Soft focus</span></figcaption></figure>
+        <figure class="look look-wide"><img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=1000&q=85" alt="Natural beauty portrait with warm tones" loading="lazy" /><figcaption>02 <span>Golden hour</span></figcaption></figure>
+        <figure class="look look-small"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=85" alt="Glowing makeup for an everyday look" loading="lazy" /><figcaption>03 <span>Just because</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="booking-band" id="booking">
+      <div class="booking-copy"><p class="eyebrow">YOUR CHAIR IS WAITING</p><h2>Ready when<br /><em>you are.</em></h2><p>Tell us what you're dreaming up. We'll be in touch to make it happen.</p><div class="booking-details"><span>STUDIO HOURS</span><p>Tue–Sat, 10am–6pm<br />By appointment</p><span>FIND US</span><p>Thamel, Kathmandu<br /><a href="mailto:hello@museparlor.com">hello@museparlor.com</a></p></div></div>
+      <form class="booking-form" id="booking-form">
+        <div class="form-heading"><span>01 — A FEW DETAILS</span><span>LET'S GET YOU READY</span></div>
+        <label for="guest-name">Your name</label><input id="guest-name" name="name" type="text" placeholder="How should we call you?" autocomplete="name" required />
+        <label for="guest-email">Email address</label><input id="guest-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+        <div class="form-row"><div><label for="service-choice">I'm interested in</label><select id="service-choice" name="service" required><option value="" disabled selected>Choose a service</option><option>Soft glam</option><option>Special occasion</option><option>Bridal preview</option><option>Makeup lesson</option></select></div><div><label for="visit-date">Preferred date</label><input id="visit-date" name="date" type="date" required /></div></div>
+        <button class="button button-rose" type="submit">Request an appointment <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-note" role="status" aria-live="polite">We'll confirm your time by email. No pressure, ever.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark footer-wordmark" href="#home"><span class="wordmark-icon">m</span><span>MUSE<small>MAKEUP PARLOR</small></span></a><span>Beauty, with room to be you.</span><span id="year-text"></span><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="./Script.js"></script>
+</body>
+</html>
